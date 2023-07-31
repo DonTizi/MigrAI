@@ -38,8 +38,8 @@ export default function DashboardPage() {
   const router = useRouter()
   return (
     <div>
-        <Script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="74bd671a-db9d-4aad-aa9b-776827ce6afe";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</Script>
-
+<Script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></Script>
+<Script src="https://mediafiles.botpress.cloud/dabe84a9-80da-4338-a610-d5cc6453d1cf/webchat/config.js" defer></Script>
         <div className="mb-8 space-y-4">
           <h2 className="text-2xl md:text-4xl font-bold text-center">
             Explore the Power of MigrAI
