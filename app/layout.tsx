@@ -21,6 +21,7 @@ export default function RootLayout({
 
   <ClerkProvider>
     <html lang="en">
+      <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="74bd671a-db9d-4aad-aa9b-776827ce6afe";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
       <body className={inter.className}>
 
 
