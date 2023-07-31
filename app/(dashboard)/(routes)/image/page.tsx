@@ -101,7 +101,7 @@ const ImagePage =() => {
                                     <Input
                                       className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                                       disabled={isLoading} 
-                                      placeholder="Start the conversation to start the MigrAI interview simulation." 
+                                      placeholder="Start the conversation by telling hello to start the MigrAI interview simulation." 
                                       {...field}
                                     />
                                     </FormControl>
