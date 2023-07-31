@@ -29,7 +29,7 @@ export const LandingHero = () => {
         </div>
       </div>
       <div className="text-sm md:text-xl font-light text-zinc-400">
-      Get AI-driven Immigration advice 10x faster.
+      Get AI-driven Immigration process 10x faster.
       </div>
       <div>
         <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>
