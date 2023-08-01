@@ -5,7 +5,7 @@ import {Card} from "@/components/ui/card"
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 import Script from 'next/script'
-
+import Footer from '@/components/Footer';
 
 const tools = [
   {
@@ -68,6 +68,7 @@ export default function DashboardPage() {
 
           ))}
         </div>
+            <Footer />
           </div>
   )
 }
