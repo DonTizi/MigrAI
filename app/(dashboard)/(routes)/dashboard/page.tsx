@@ -39,7 +39,7 @@ export default function DashboardPage() {
   return (
     <div>
       <Script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></Script>
-      <Script src="https://mediafiles.botpress.cloud/82b53c5e-9cd1-4abb-8078-3602d532d0b0/webchat/config.js" defer></Script>
+      <Script src="https://rayanemeldz.github.io/FarahAICSS/CSS/config.js" defer></Script>
         <div className="mb-8 space-y-4">
           <h2 className="text-2xl md:text-4xl font-bold text-center">
             Explore the Power of MigrAI
