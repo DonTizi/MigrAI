@@ -95,7 +95,7 @@ const Codepage =() => {
                                     <Input
                                       className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                                       disabled={isLoading} 
-                                      placeholder="Start the conversation by saying "hello, can we begin?" to start the simulation of MigrAI's immigration processes." 
+                                      placeholder="Start the conversation by saying hello, can we begin? to start the simulation of MigrAI's immigration processes." 
                                       {...field}
                                     />
                                     </FormControl>
