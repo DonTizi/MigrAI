@@ -265,6 +265,7 @@ The data we collect when the user performs certain functions may be used for the
 </Text>
 <ul>
 <li>Payment.</li>
+<li>E-mails</li>
 </ul>
 <SubTitle>Who We Share Personal Data With</SubTitle>
 <Text>
