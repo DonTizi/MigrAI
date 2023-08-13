@@ -8,7 +8,7 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'MigrAI',
+  title: 'MigrAI: Your Canadian Immigration solver',
   description: 'Unlock seamless Canadian immigration with MigrAI. Harness AI-driven insights, tailored advice, and streamlined processes for your migration journey.',
 }
 
