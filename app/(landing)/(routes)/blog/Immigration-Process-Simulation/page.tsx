@@ -7,7 +7,7 @@ import { BotAvatar } from "@/components/bot-avatar";
 const relatedBlogs = [
     { title: "Virtual interview Simulation Guide", link: "/blog/Immigration-Virtual-Interview-Simulation" },
     { title: "Immigration Explainer Tool", link: "/blog/Immigration-Explainer-Tool" },
-    { title: "Understanding the Canadian Experience", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
+    { title: "3 Ways to apply for a job in Canada", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
     // ... add more related blogs as needed
 ];
 
