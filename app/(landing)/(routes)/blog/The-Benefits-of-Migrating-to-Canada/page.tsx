@@ -2,13 +2,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 
 const relatedBlogs = [
-<<<<<<< HEAD:app/(landing)/(routes)/blog/The-Benefits-of-Migrating-to-Canada/page.tsx
     { title: "Simplifying Canadian Immigration for Students", link: "/blog/Simplifying-Canadian-Immigration-for-Students" },
     { title: "Understanding the Canadian Experience", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
-=======
-    { title: "Simplifying Canadian Immigration for Students", link: "/blog/blogone" },
-    { title: "3 Ways to Apply for a Job in Canada", link: "/blog/blog3" },
->>>>>>> 6a6ecf47724667bf2205994679d5a66e4be3b6a2:app/(landing)/(routes)/blog/blog2/page.tsx
     { title: "Top Cities to Live in Canada", link: "/blog/top-cities-in-canada" },
     // ... add more related blogs as needed
 ];
