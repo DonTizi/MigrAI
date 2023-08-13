@@ -25,11 +25,19 @@ const blogPreviews = [
     link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada",
   },
   {
+<<<<<<< HEAD
     author: "Canadian Work Visa",
     avatar: "M",
     title: "Understanding the work visa process",
     excerpt: "Canada, with its robust economy, offers numerous job...",
     link: "/blog/The-Canadian-Work-Visa-Guide",
+=======
+    author: "Canadian Work Visa Guide",
+    avatar: "M",
+    title: "Understanding the work visa process",
+    excerpt: "before embarking on your Canadian employment journey, understanding...",
+    link: "/blog/blog8",
+>>>>>>> 6a6ecf47724667bf2205994679d5a66e4be3b6a2
   },
   
 ];
