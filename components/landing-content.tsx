@@ -25,11 +25,11 @@ const blogPreviews = [
     link: "/blog/blog3",
   },
   {
-    author: "Immigration for Students",
+    author: "The Canadian Work Visa Guide",
     avatar: "M",
-    title: "Simplifying Canadian Immigration for Students",
-    excerpt: "With a 60% study permit approval rate, the Canadian immigration maze can...",
-    link: "/blog/blogone",
+    title: "Understanding the work visa process is just the first step",
+    excerpt: "before embarking on your Canadian employment journey, understanding...",
+    link: "/blog/blog8",
   },
   
 ];
