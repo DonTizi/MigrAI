@@ -62,7 +62,7 @@ const blog2 = () => {
                 </div>
             </div>
             <div className="text-center mt-8">
-                <a href="/" className="bg-blue-900 hover:bg-blue-600 py-2 px-6 rounded-full text-lg font-semibold transition-colors">Back to Landing</a>
+                <a href="/" className="bg-blue-900 hover:bg-blue-600 py-2 px-6 rounded-full text-lg font-semibold transition-colors">Back to Homepage</a>
             </div>
         </div>
     );
