@@ -4,7 +4,7 @@ import { UserLogo } from "@/components/user-logo";
 import { BotAvatar } from "@/components/bot-avatar";
 
 const relatedBlogs = [
-    { title: "Process Simulation Tool", link: "/blog/blog5" },
+    { title: "Process Simulation Tool Guide", link: "/blog/blog5" },
     { title: "Immigration Explainer Tool", link: "/blog/blog4" },
     { title: "Understanding the Canadian Experience", link: "/blog/blog3" },
 ];
