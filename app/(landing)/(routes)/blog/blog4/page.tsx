@@ -75,22 +75,23 @@ const blog4 = () => {
             <div className="mt-12 flex flex-col items-center">
     <h2 className="text-3xl font-semibold mb-6">Related Articles</h2>
     <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mx-auto">
-        {relatedBlogs.map((item) => (
-            <a href={item.link} className="block transition-transform transform hover:scale-105">
-                <Card key={item.title} className="bg-gradient-to-br from-blue-900 to-slate-800 border-none text-white rounded-xl shadow-lg">
-                    <CardHeader>
-                        <CardTitle className="flex items-center gap-x-2">
-                            <div>
-                                <p className="text-xl font-semibold">{item.title}</p>
-                            </div>
-                        </CardTitle>
-                        <CardContent className="pt-4 px-0">
-                            Read More
-                        </CardContent>
-                    </CardHeader>
-                </Card>
-            </a>
-        ))}
+    {relatedBlogs.map((item) => (
+    <a key={item.title} href={item.link} className="block transition-transform transform hover:scale-105">
+        <Card className="bg-gradient-to-br from-blue-900 to-slate-800 border-none text-white rounded-xl shadow-lg">
+            <CardHeader>
+                <CardTitle className="flex items-center gap-x-2">
+                    <div>
+                        <p className="text-xl font-semibold">{item.title}</p>
+                    </div>
+                </CardTitle>
+                <CardContent className="pt-4 px-0">
+                    Read More
+                </CardContent>
+            </CardHeader>
+        </Card>
+    </a>
+))}
+
     </div>
 </div>
 

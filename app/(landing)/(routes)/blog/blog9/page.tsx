@@ -37,22 +37,23 @@ const blogStudentGuide = () => {
             <div className="mt-12">
                 <h2 className="text-3xl font-semibold mb-6">Related Blogs</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                    {relatedBlogs.map((item) => (
-                        <a href={item.link} className="block transition-transform transform hover:scale-105">
-                            <Card key={item.title} className="bg-gradient-to-br from-blue-900 to-slate-800 border-none text-white rounded-xl shadow-lg">
-                                <CardHeader>
-                                    <CardTitle className="flex items-center gap-x-2">
-                                        <div>
-                                            <p className="text-xl font-semibold">{item.title}</p>
-                                        </div>
-                                    </CardTitle>
-                                    <CardContent className="pt-4 px-0">
-                                        Read More
-                                    </CardContent>
-                                </CardHeader>
-                            </Card>
-                        </a>
-                    ))}
+                {relatedBlogs.map((item) => (
+    <a key={item.title} href={item.link} className="block transition-transform transform hover:scale-105">
+        <Card className="bg-gradient-to-br from-blue-900 to-slate-800 border-none text-white rounded-xl shadow-lg">
+            <CardHeader>
+                <CardTitle className="flex items-center gap-x-2">
+                    <div>
+                        <p className="text-xl font-semibold">{item.title}</p>
+                    </div>
+                </CardTitle>
+                <CardContent className="pt-4 px-0">
+                    Read More
+                </CardContent>
+            </CardHeader>
+        </Card>
+    </a>
+))}
+
                 </div>
             </div>
             <div className="text-center mt-16">
