@@ -27,7 +27,7 @@ const blogPreviews = [
   {
     author: "Immigration for Students",
     avatar: "M",
-    title: "3 Ways to Apply for a Job in Canada",
+    title: "Simplifying Canadian Immigration for Students",
     excerpt: "With a 60% study permit approval rate, the Canadian immigration maze can...",
     link: "/blog/blogone",
   },
