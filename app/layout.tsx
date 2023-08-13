@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'MigrAI',
-  description: 'Your Immigration AI Solver',
+  description: 'Unlock seamless Canadian immigration with MigrAI. Harness AI-driven insights, tailored advice, and streamlined processes for your migration journey.',
 }
 
 export default function RootLayout({
