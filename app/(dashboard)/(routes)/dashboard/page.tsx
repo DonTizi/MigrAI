@@ -38,8 +38,7 @@ export default function DashboardPage() {
   const router = useRouter()
   return (
     <div>
-      <Script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></Script>
-      <Script src="https://rayanemeldz.github.io/FarahAICSS/CSS/config.js" defer></Script>
+
         <div className="mb-8 space-y-4">
           <h2 className="text-2xl md:text-4xl font-bold text-center">
             Explore the Power of MigrAI
