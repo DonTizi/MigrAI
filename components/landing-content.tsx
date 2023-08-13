@@ -27,7 +27,7 @@ const blogPreviews = [
   {
     author: "Canadian Work Visa Guide",
     avatar: "M",
-    title: "Understanding the work visa process is just the first step",
+    title: "Understanding the work visa process",
     excerpt: "before embarking on your Canadian employment journey, understanding...",
     link: "/blog/blog8",
   },
