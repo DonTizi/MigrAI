@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 const LandingLayout = ({
     children
   }: {
@@ -8,6 +10,8 @@ const LandingLayout = ({
 
         <div className="mx-auto max-w-screen-xl h-full w-full">
           {children}
+          <Analytics />
+
         </div>
       </main>
      );
