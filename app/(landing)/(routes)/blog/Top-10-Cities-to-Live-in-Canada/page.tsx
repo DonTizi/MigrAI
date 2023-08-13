@@ -2,9 +2,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 
 const relatedBlogs = [
-    { title: "The Benefits of Migrating to Canada", link: "/blog/blog2" },
-    { title: "3 Ways to Apply for a Job in Canada", link: "/blog/blog3" },
-    { title: "Simplifying Canadian Immigration for Students", link: "/blog/blogone" },
+    { title: "The Benefits of Migrating to Canada", link: "/blog/The-Benefits-of-Migrating-to-Canada" },
+    { title: "3 Ways to Apply for a Job in Canada", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
+    { title: "Simplifying Canadian Immigration for Students", link: "/blog/Simplifying-Canadian-Immigration-for-Students" },
     // ... add more related blogs as needed
 ];
 const blogTopCities = () => {

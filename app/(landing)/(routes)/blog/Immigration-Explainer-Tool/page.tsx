@@ -5,10 +5,10 @@ import { UserLogo } from "@/components/user-logo";
 import { BotAvatar } from "@/components/bot-avatar";
 
 const relatedBlogs = [
-    { title: "Process Simulation Tool Guide", link: "/blog/blog5" },
-    { title: "Virtual interview Simulation Guide", link: "/blog/blog6" },
-    { title: "3 Ways to Apply for a Job in Canada", link: "/blog/blog3" },
-    { title: "Simplifying Canadian Immigration for Students", link: "/blog/blogone" },
+    { title: "Process Simulation Tool Guide", link: "/blog/Immigration-Process-Simulation" },
+    { title: "Virtual interview Simulation Guide", link: "/blog/Immigration-Virtual-Interview-Simulation" },
+    { title: "3 Ways to Apply for a Job in Canada", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
+    { title: "Simplifying Canadian Immigration for Students", link: "/blog/Simplifying-Canadian-Immigration-for-Students" },
     // ... add more related blogs as needed
 ];
 
@@ -97,7 +97,7 @@ const blog4 = () => {
 
 
             <div className="text-center mt-16">
-                <a href="/" className="bg-blue-900 hover:bg-blue-600 py-2 px-6 rounded-full text-lg font-semibold transition-colors">Back to Landing</a>
+                <a href="/" className="bg-blue-900 hover:bg-blue-600 py-2 px-6 rounded-full text-lg font-semibold transition-colors">Back to Homepage</a>
             </div>
         </div>
     );

@@ -1,9 +1,9 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"; // Import necessary components
 
 const relatedBlogs = [
-    { title: "From a Canadian Study Permit to a Work Visa", link: "/blog/blog9" },
-    { title: "3 Ways to Apply for a Job in Canada", link: "/blog/blog3" },
-    { title: "Job Hunting in Canada: Tips for New Immigrants", link: "/blog/blog7" },
+    { title: "From a Canadian Study Permit to a Work Visa", link: "/blog/Transitioning-from-Student-to-Professional-in-Canada" },
+    { title: "3 Ways to Apply for a Job in Canada", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
+    { title: "Job Hunting in Canada: Tips for New Immigrants", link: "/blog/Guide-to-Entering-the-Canadian-Job-Market" },
     
     // ... add more related blogs as needed
 ];

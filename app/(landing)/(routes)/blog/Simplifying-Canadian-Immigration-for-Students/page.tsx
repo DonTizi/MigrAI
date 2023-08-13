@@ -2,9 +2,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 
 const relatedBlogs = [
-    { title: "The Benefits of Migrating to Canada", link: "/blog/blog2" },
-    { title: "3 Ways to Apply for a Job in Canada", link: "/blog/blog3" },
-    { title: "Top Cities to Live in Canada", link: "/blog/blog10" },
+    { title: "The Benefits of Migrating to Canada", link: "/blog/The-Benefits-of-Migrating-to-Canada" },
+    { title: "3 Ways to Apply for a Job in Canada", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
+    { title: "Top Cities to Live in Canada", link: "/blog/Top-10-Cities-to-Live-in-Canada" },
     // ... add more related blogs as needed
 ];
 
@@ -62,7 +62,7 @@ const BlogOne = () => {
                 </div>
             </div>
             <div className="text-center mt-8">
-                <a href="/" className="bg-blue-900 hover:bg-blue-600 py-2 px-6 rounded-full text-lg font-semibold transition-colors">Back to Landing</a>
+                <a href="/" className="bg-blue-900 hover:bg-blue-600 py-2 px-6 rounded-full text-lg font-semibold transition-colors">Back to Homepage</a>
             </div>
         </div>
     );

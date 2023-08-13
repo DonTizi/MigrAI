@@ -2,8 +2,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 
 const relatedBlogs = [
-    { title: "Simplifying Canadian Immigration for Students", link: "/blog/blogone" },
-    { title: "Understanding the Canadian Experience", link: "/blog/blog3" },
+    { title: "Simplifying Canadian Immigration for Students", link: "/blog/Simplifying-Canadian-Immigration-for-Students" },
+    { title: "Understanding the Canadian Experience", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
     { title: "Top Cities to Live in Canada", link: "/blog/top-cities-in-canada" },
     // ... add more related blogs as needed
 ];

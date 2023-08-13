@@ -4,12 +4,11 @@ import { Inter } from 'next/font/google'
 import { ClerkProvider } from '@clerk/nextjs'
 import { ModalProvider } from '@/components/modal-provider'
 import { ToasterProvider } from '@/components/toaster.provider'
-import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'MigrAI',
-  description: 'Your Immigration AI Solver',
+  title: 'MigrAI: Your Canadian Immigration solver',
+  description: 'Unlock seamless Canadian immigration with MigrAI. Harness AI-driven insights, tailored advice, and streamlined processes for your migration journey.',
 }
 
 export default function RootLayout({
