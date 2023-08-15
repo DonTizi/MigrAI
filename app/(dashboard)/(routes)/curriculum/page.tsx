@@ -85,9 +85,9 @@ const Codepage =() => {
                                 render={({ field }) => (
                                     <FormControl className="m-0 p-0">
                                         <Input
-                                            className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent h-24 w-full" // Increased the height here to h-24 and ensured full width
+                                            className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent h-34 w-full" // Increased the height here to h-24 and ensured full width
                                             disabled={isLoading}
-                                            placeholder="Please copy and paste the job description into the input."
+                                            placeholder="Please copy and paste the job description here."
                                             {...field}
                                         />
                                     </FormControl>
