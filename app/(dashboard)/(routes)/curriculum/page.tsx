@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { ChatCompletionRequestMessage } from "openai";
-import { Empty } from "@/components/empty";
+import { Emptycv } from "@/components/emptycv";
 import { Loader } from "@/components/loader";
 import { cn } from "@/lib/utils";
 import { UserAvatar } from "@/components/user-avatar";
@@ -106,7 +106,7 @@ const Codepage =() => {
                         </div>
                     )}
                     {messages.length === 0 && !isLoading &&(
-                        <Empty label="No CV Generated." />
+                        <Emptycv label="No CV Generated." />
                     )}
                     <div className="flex flex-col-reverse gap-y-4">
                         {messages.map((message) => (
