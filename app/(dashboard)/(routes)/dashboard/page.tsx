@@ -1,6 +1,6 @@
 "use client";
 
-import {ArrowRight, FileQuestion , User2 , Calculator } from "lucide-react";
+import {ArrowRight, FileQuestion , User2 , Calculator ,FileText  } from "lucide-react";
 import {Card} from "@/components/ui/card"
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
@@ -29,6 +29,13 @@ const tools = [
     color: "text-purple-700",
     bgColor: "bg-purple-500/10",
     href: "/image"
+  },
+  {
+    label: " Curriculum Vitae Maker",
+    icon: FileText ,
+    color: "text-red-700",
+    bgColor: "bg-red-500/10",
+    href: "/curriculum"
   },
   
 

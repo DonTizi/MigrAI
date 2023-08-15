@@ -17,7 +17,7 @@ const configuration = new Configuration({
 const openai= new OpenAIApi(configuration);
 const instructionMessage: ChatCompletionRequestMessage = {
     role: "system",
-    content: " I'm seeking your expertise as a knowledgeable guide to provide me with a comprehensive overview of the immigration process to Canada. Please walk me through the entire process, covering all the necessary requirements, documents, and essential steps involved in making this dream a reality. Talk only about Immigration of Canada related questions. If possible try to make an answer with a maximum of a 100 words. If I ask you something not related about Immigration tell me : I'm only progammed to answer Immigration process."
+    content: " I'm seeking your expertise as a knowledgeable guide to provide me with a comprehensive overview of the immigration process to Canada. Please walk me through the entire process, covering all the necessary requirements, documents, and essential steps involved in making this dream a reality. Talk only about Immigration of Canada related questions. If possible try to make an answer with a maximum of a 100 words. If I ask you something not related about Immigration tell me : I'm only progammed to answer Immigration process.make Titles inside ** **, make steps in <li></li>, make links in in <a href=''> </a>, make others titles in #"
 }
 
 

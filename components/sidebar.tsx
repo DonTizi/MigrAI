@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Montserrat } from 'next/font/google'
-import { Calculator , ImageIcon, LayoutDashboard, FileQuestion , User2  , Settings, VideoIcon } from "lucide-react";
+import { Calculator , ImageIcon, LayoutDashboard, FileQuestion , User2  , Settings, FileText } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils";
@@ -35,6 +35,12 @@ const routes = [
     icon: User2 ,
     color: "text-purple-700",
     href: '/image',
+  },
+  {
+    label: 'CV Maker',
+    icon: FileText ,
+    color: "text-red-700",
+    href: '/curriculum',
   },
   {
     label: 'Settings',
