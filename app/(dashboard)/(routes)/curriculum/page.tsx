@@ -68,7 +68,7 @@ const Codepage =() => {
         <div>
             <Heading
                 title="Curriculum Vitae Maker"
-                description="Resume Enhancement Engine powered by AI NLP (Natural Language Processing) for Job-specific Tailoring."
+                description="Resume Enhancement Engine powered by AI NLP (Natural Language Processing) for Job-specific Tailoring. Please copy and paste the job description into the input."
                 icon={Calculator}
                 iconColor="text-red-700"
                 bgColor="bg-red-700/10"
@@ -87,7 +87,7 @@ const Codepage =() => {
                                         <Input
                                             className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent h-24 w-full" // Increased the height here to h-24 and ensured full width
                                             disabled={isLoading}
-                                            placeholder="Please input the Job post here."
+                                            placeholder="Please copy and paste the job description into the input."
                                             {...field}
                                         />
                                     </FormControl>
