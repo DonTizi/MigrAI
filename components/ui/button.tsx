@@ -20,7 +20,9 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         premium: "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white border-0",
         start: "bg-gradient-to-r from-blue-900 via-blue-500 to-blue-900 text-white border-0",
-        ask: "bg-gradient-to-r from-blue-600 via-blue-600 to-blue-600 text-white border-0"
+        ask: "bg-gradient-to-r from-blue-600 via-blue-600 to-blue-600 text-white border-0",
+        generate: "bg-gradient-to-r from-red-600 via-red-500 to-red-600 text-white border-0"
+
 
 
       },
