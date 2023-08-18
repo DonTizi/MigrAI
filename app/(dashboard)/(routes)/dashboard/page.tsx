@@ -9,7 +9,7 @@ import Footer from '@/components/Footer';
 
 const tools = [
   {
-    label: " Immigration Explainer",
+    label: " Immigration Explainer" ,
     icon: FileQuestion ,
     color: "text-blue-500",
     bgColor: "bg-blue-500/10",
