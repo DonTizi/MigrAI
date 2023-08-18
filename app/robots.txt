@@ -7,3 +7,5 @@ user-agent: Googlebot
 Disallow: /dashboard
 Allow: /
 Allow: /blog/*
+
+Sitemap: http://www.imigrai.ca/sitemap.xml
