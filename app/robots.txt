@@ -1,0 +1,9 @@
+user-agent: *
+Disallow: /dashboard
+Allow: /
+Allow: /blog/*
+
+user-agent: Googlebot
+Disallow: /dashboard
+Allow: /
+Allow: /blog/*
