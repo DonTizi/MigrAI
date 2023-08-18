@@ -9,7 +9,7 @@ export const LandingFooter = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="text-white p-4 sticky bottom-0 w-full flex items-center justify-center" style={{ backgroundColor: '#172447' }}>
+    <footer className="text-white p-4  bottom-0 w-full flex items-center justify-center" style={{ backgroundColor: '#172447' }}>
       <div className="container mx-auto flex flex-col justify-center items-center">
         <div className="flex items-center space-x-4">
           <p className={`${font.className}`}>© {currentYear} MigrAI inc. All Rights Reserved.</p>
