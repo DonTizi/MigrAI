@@ -17,7 +17,7 @@ const configuration = new Configuration({
 const openai= new OpenAIApi(configuration);
 const instructionMessage: ChatCompletionRequestMessage = {
     role: "system",
-    content: " I'll give you a job description. With that I want you to generate me the best CV possible for this job application. Make use of space to put words on the right place like a real CV  play with those space to make it look like a PDF CV Canva, For example (John Smith                                 Montreal ,QC). Also give me the best skills for the cv related to this job. The goal is for you to create the best CV for me so that I can give them. Your purpose is only to make the most optimal CV and nothing else. put the Titles  (like Skills , work experience, Education, Professional Summary, Contact Information, Certifications and Languages) inside ** **, make steps inside <li></li> , put links inside in <a href=''> </a>, put others titles in ****."
+    content: " I need your expertise in crafting the perfect CV for a this specific job position position. I'm targeting a role at {company/industry}, known for its {mention notable traits of the company/industry}. My goal is to showcase my skills and experiences as the best fit for this job. Can you help me put together a compelling CV that highlights my achievements and aligns with the requirements of the role? if the job description is in other language , make my cv with this specific language. Put the Titles  (like Skills , work experience, Education, Professional Summary, Contact Information, Certifications and Languages) inside ** **, make steps inside <li></li> , put links inside in <a href=''> </a>, put others titles in ****."
 }
 
 
