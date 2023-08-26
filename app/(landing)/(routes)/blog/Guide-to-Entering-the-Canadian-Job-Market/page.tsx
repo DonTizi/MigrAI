@@ -9,7 +9,7 @@ const relatedBlogs = [
 
 const blogJobGuide = () => {
     return ( 
-        <div className="p-8 text-white bg-slate-900 rounded-xl">
+        <div className="p-8 text-white bg-[#172447] rounded-xl">
             <h1 className="text-4xl font-bold mb-8 tracking-tight">Guide to Entering the Canadian Job Market</h1>
             
             <p className="mb-6 text-lg leading-relaxed">

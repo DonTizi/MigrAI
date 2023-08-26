@@ -9,7 +9,7 @@ const relatedBlogs = [
 ];
 const blogStudentGuide = () => {
     return ( 
-        <div className="p-8 text-white bg-slate-900 rounded-xl">
+        <div className="p-8 text-white bg-[#172447] rounded-xl">
             <h1 className="text-4xl font-bold mb-8 tracking-tight">Transitioning from Student to Professional in Canada</h1>
             
             <p className="mb-6 text-lg leading-relaxed">
@@ -39,7 +39,7 @@ const blogStudentGuide = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                 {relatedBlogs.map((item) => (
     <a key={item.title} href={item.link} className="block transition-transform transform hover:scale-105">
-        <Card className="bg-gradient-to-br from-blue-900 to-slate-800 border-none text-white rounded-xl shadow-lg">
+        <Card className="bg-blue-900 border-none text-white rounded-xl shadow-lg">
             <CardHeader>
                 <CardTitle className="flex items-center gap-x-2">
                     <div>

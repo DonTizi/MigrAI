@@ -41,7 +41,7 @@ export const LandingContent = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {blogPreviews.map((item) => (
            <a href={item.link} key={item.excerpt} className="block transition-transform transform hover:scale-105"> {/* Wrap the Card with an anchor tag */}
-           <Card className="bg-[#192339] border-none text-white cursor-pointer">
+           <Card className="bg-[#1b2952] border-none text-white cursor-pointer">
              <CardHeader>
                <CardTitle className="flex items-center gap-x-2">
                  <div>

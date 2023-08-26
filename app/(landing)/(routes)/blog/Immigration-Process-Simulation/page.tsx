@@ -14,7 +14,7 @@ const relatedBlogs = [
 
 const blog5 = () => {
     return ( 
-        <div className="p-8 text-white bg-slate-900 rounded-xl">
+        <div className="p-8 text-white bg-[#172447] rounded-xl">
             <h2 className="text-3xl font-semibold mb-6">Immigration Process Simulation:</h2>
             <p className="mb-6 text-lg leading-relaxed">
             Navigating Canadian immigration can feel like a maze. Enter the "Immigration Process Simulator," an innovative tool that lets you experience the entire immigration journey, from inception to completion. To maximize the simulation's efficacy, always ask questions and seek advice at each juncture before moving on. Conduct your research in tandem and let the simulator guide you every step of the way. This immersive experience enables users to grasp the intricacies of their Canadian immigration application, arming them with knowledge before commencing the actual process.
@@ -104,7 +104,7 @@ const blog5 = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                 {relatedBlogs.map((item) => (
     <a key={item.title} href={item.link} className="block transition-transform transform hover:scale-105">
-        <Card className="bg-gradient-to-br from-blue-900 to-slate-800 border-none text-white rounded-xl shadow-lg">
+        <Card className="bg-blue-900 border-none text-white rounded-xl shadow-lg">
             <CardHeader>
                 <CardTitle className="flex items-center gap-x-2">
                     <div>
