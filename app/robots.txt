@@ -1,10 +1,14 @@
 user-agent: *
 Disallow: /dashboard
+Disallow: /sign-in
+Disallow: /sign-up
 Allow: /
 Allow: /blog/*
 
 user-agent: Googlebot
 Disallow: /dashboard
+Disallow: /sign-in
+Disallow: /sign-up
 Allow: /
 Allow: /blog/*
 
