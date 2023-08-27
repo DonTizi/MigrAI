@@ -41,14 +41,14 @@ export async function GET() {
       line_items: [
         {
           price_data: {
-            currency: "USD",
+            currency: "CAD",
             product_data: {
               name: "MigrAI Pro",
-              description: "Unlimited Access"
+              description: "Access to unlimited use of MigrAI Pro, Features updates, support and more..."
             },
-            unit_amount: 1999,
+            unit_amount: 125000,
             recurring: {
-              interval: "month"
+              interval: "year"
             }
           },
           quantity: 1,

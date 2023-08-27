@@ -2,7 +2,7 @@
 import { useProModal } from "@/hooks/use-pro-modal";
 import { Dialog, DialogHeader, DialogContent, DialogTitle, DialogDescription, DialogFooter} from "./ui/dialog";
 import { Badge } from "./ui/badge";
-import {ArrowRight, User2 , ImageIcon, Music, FileQuestion , Calculator, Check, Zap } from "lucide-react";
+import {ArrowRight, User2 , ImageIcon, Music, FileQuestion , Calculator, Check, Zap, FileText } from "lucide-react";
 import { Card } from "./ui/card";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
@@ -32,7 +32,13 @@ const tools = [
         color: "text-purple-700",
         bgColor: "bg-purple-700/10",
         href: "/image"
-      }
+      },
+      {
+        label: 'CV Maker',
+        icon: FileText ,
+        color: "text-red-700",
+        href: '/curriculum',
+      },
 ]
     
 export const ProModal =() => {
