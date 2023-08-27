@@ -405,7 +405,9 @@ Email: contact@imigrai.ca<br />
 ________________________________________<br />
 Montréal
 </Text>
-<Button onClick={() => window.location.href = "/"}>Back to Home Page</Button>
+<div className="text-center text-white mt-16">
+                <a href="/" className="bg-blue-900 hover:bg-blue-600 py-2 px-6 rounded-full text-lg font-semibold transition-colors">Back to Homepage</a>
+            </div>
 
 </Container> );
 export default AboutUs;
