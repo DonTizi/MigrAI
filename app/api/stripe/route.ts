@@ -46,7 +46,7 @@ export async function GET() {
               name: "MigrAI Pro",
               description: "Access to unlimited use of MigrAI Pro, Features updates, support and more..."
             },
-            unit_amount: 125000,
+            unit_amount: 124999,
             recurring: {
               interval: "year"
             }
