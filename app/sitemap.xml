@@ -14,6 +14,12 @@
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
+		<url>
+		<loc>https://www.imigrai.ca/sign-in</loc>
+		<lastmod>2023-08-18</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
 	<url>
 		<loc>https://www.imigrai.ca/blog</loc>
 		<lastmod>2023-08-18</lastmod>
@@ -21,37 +27,7 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>https://www.imigrai.ca/blog/The-Canadian-Work-Visa-Guide</loc>
-		<lastmod>2023-08-18</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.imigrai.ca/blog/3-Ways-to-Apply-for-a-Job-in-Canada</loc>
-		<lastmod>2023-08-18</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
 		<loc>https://www.imigrai.ca/blog/Immigration-Explainer-Tool</loc>
-		<lastmod>2023-08-18</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.imigrai.ca/blog/Simplifying-Canadian-Immigration-for-Students</loc>
-		<lastmod>2023-08-18</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.imigrai.ca/blog/Guide-to-Entering-the-Canadian-Job-Market</loc>
-		<lastmod>2023-08-18</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.imigrai.ca/blog/Transitioning-from-Student-to-Professional-in-Canada</loc>
 		<lastmod>2023-08-18</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
@@ -68,20 +44,8 @@
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
-	<url>
-		<loc>https://www.imigrai.ca/blog/The-Benefits-of-Migrating-to-Canada</loc>
-		<lastmod>2023-08-18</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.imigrai.ca/blog/Top-10-Cities-to-Live-in-Canada</loc>
-		<lastmod>2023-08-18</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.imigrai.ca/blog/top-cities-in-canada</loc>
+		<url>
+		<loc>https://www.imigrai.ca/blog/migrai</loc>
 		<lastmod>2023-08-18</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
