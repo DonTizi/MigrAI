@@ -15,7 +15,7 @@ const blog6 = () => {
             <div className="p-8 text-white bg-slate-900 rounded-xl">
             <h2 className="text-3xl font-semibold mb-6">Immigration Virtual Interview Simulation:</h2>
             <p className="mb-6 text-lg leading-relaxed">
-            Delving into the world of Canadian immigration, the third tool stands out: the "Immigration Virtual Interview Simulation." Enhanced by artificial intelligence, this tool mimics a genuine interview with a Canadian immigration officer. During the simulation, it's pivotal to utilize precise vocabulary and provide exhaustive details. Introduce yourself effectively, engage in a genuine conversation, and don't hesitate to ask questions.            </p>
+            Delving into the world of Canadian immigration, the third tool stands out: the <strong>Immigration Virtual Interview Simulation.</strong> Enhanced by artificial intelligence, this tool mimics a genuine interview with a Canadian immigration officer. During the simulation, it's pivotal to utilize precise vocabulary and provide exhaustive details. Introduce yourself effectively, engage in a genuine conversation, and don't hesitate to ask questions.            </p>
             <h2 className="text-3xl font-semibold mb-6">Simulation Example:</h2>
             <p className="mb-6 text-lg leading-relaxed">
             Imagine a scenario: A mother residing in Belgium, with her daughter holding Canadian citizenship, aspires to live in Canada. This tool offers a glimpse into what a real interview with a Canadian immigration agent might look like.            </p> </div>

@@ -19,17 +19,18 @@ const blog4 = () => {
             <h1 className="text-4xl font-bold mb-8 tracking-tight">Immigration Explainer Tool:</h1>
             
             <p className="mb-6 text-lg leading-relaxed">
-                Dive into the world of Canadian immigration with the "Immigration Explainer" tool, your comprehensive digital guide. Boasting an 85% user preference, this tool deciphers the complexities of immigration effortlessly.
-            </p>
+    Dive into the world of Canadian immigration with the <strong>Immigration Explainer</strong> tool, your comprehensive digital guide. Boasting an 85% user preference, this tool deciphers the complexities of immigration effortlessly.
+</p>
+
 
             <h2 className="text-3xl font-semibold mb-6">Efficiency at Its Best:</h2>
             <p className="mb-6 text-lg leading-relaxed">
-                Simply ask. Whether it's about documentation, process intricacies, or post-immigration steps, the tool is primed to assist. However, note: it won't handle tasks like "Process my immigration." Its forte is purely informational, tailored to Canadian immigration nuances.
+                Simply ask. Whether it's about documentation, process intricacies, or post-immigration steps, the tool is primed to assist. However, note: it won't handle tasks like <strong>Process my immigration.</strong> Its forte is purely informational, tailored to Canadian immigration nuances.
             </p>
             
             <h2 className="text-3xl font-semibold mb-6">Popular Queries Include:</h2>
             <ul className="list-disc pl-8 mb-6 text-lg leading-relaxed">
-                <li>Steps post-immigration: How to acquire a Social Insurance Number (SIN), health card, or job in Canada?</li>
+                <li>How to acquire a Social Insurance Number (SIN), health card, or job in Canada?</li>
     {/* Bot Message */}
     <div className="flex items-start gap-x-8 rounded-lg p-8 bg-muted">
         <BotAvatar />

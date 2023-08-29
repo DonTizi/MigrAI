@@ -17,11 +17,11 @@ const blog5 = () => {
         <div className="p-8 text-white bg-[#172447] rounded-xl">
             <h2 className="text-3xl font-semibold mb-6">Immigration Process Simulation:</h2>
             <p className="mb-6 text-lg leading-relaxed">
-            Navigating Canadian immigration can feel like a maze. Enter the "Immigration Process Simulator," an innovative tool that lets you experience the entire immigration journey, from inception to completion. To maximize the simulation's efficacy, always ask questions and seek advice at each juncture before moving on. Conduct your research in tandem and let the simulator guide you every step of the way. This immersive experience enables users to grasp the intricacies of their Canadian immigration application, arming them with knowledge before commencing the actual process.
+            Navigating Canadian immigration can feel like a maze. Enter the <strong>Immigration Process Simulator</strong>, an innovative tool that lets you experience the entire immigration journey, from inception to completion. To maximize the simulation's efficacy, always ask questions and seek advice at each juncture before moving on. Conduct your research in tandem and let the simulator guide you every step of the way. This immersive experience enables users to grasp the intricacies of their Canadian immigration application, arming them with knowledge before commencing the actual process.
             </p>
             <h2 className="text-3xl font-semibold mb-6">Optimizing Your Simulation Experience:</h2>
             <p className="mb-6 text-lg leading-relaxed">
-               Kickstart by greeting it with a 'Hello.' It'll prompt if you're ready to begin the simulation. Respond affirmatively. Now, share details specific to your scenario. For instance, let's take an individual with a Canadian citizen daughter wishing to migrate to Canada. This simulation offers a hands-on experience.
+               Kickstart by greeting it with a <strong>Hello.</strong> It'll prompt if you're ready to begin the simulation. Respond affirmatively. Now, share details specific to your scenario. For instance, let's take an individual with a Canadian citizen daughter wishing to migrate to Canada. This simulation offers a hands-on experience.
             </p>
             
 {/* MigrAI chat design */}
@@ -96,7 +96,7 @@ const blog5 = () => {
             </div>
             <br></br>
             <p className="mb-8 text-lg leading-relaxed">
-                    The aim? Familiarity. The goal is to acquaint you with every step, ensuring no uncertainties or doubts linger. We highly recommend starting with this simulator before diving into the "Immigration Explainer."
+                    The aim? Familiarity. The goal is to acquaint you with every step, ensuring no uncertainties or doubts linger. We highly recommend starting with this simulator before diving into the <strong>Immigration Explainer</strong>.
             </p>
 
             <div className="mt-12">
