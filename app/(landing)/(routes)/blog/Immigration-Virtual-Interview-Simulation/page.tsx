@@ -6,13 +6,13 @@ import { BotAvatar } from "@/components/bot-avatar";
 const relatedBlogs = [
     { title: "Process Simulation Tool Guide", link: "/blog/Immigration-Process-Simulation" },
     { title: "Immigration Explainer Tool", link: "/blog/Immigration-Explainer-Tool" },
-    { title: "3 Ways to Apply for a job in Canada", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
+    { title: "How MigrAI Can Help You?", link: "/blog/migrai" },
 ];
 
 const blog6 = () => {
     return (
         <div className="p-8 text-white bg-[#172447] rounded-xl">
-            <div className="p-8 text-white bg-slate-900 rounded-xl">
+            <div className="p-8 text-white rounded-xl">
             <h2 className="text-3xl font-semibold mb-6">Immigration Virtual Interview Simulation:</h2>
             <p className="mb-6 text-lg leading-relaxed">
             Delving into the world of Canadian immigration, the third tool stands out: the <strong>Immigration Virtual Interview Simulation.</strong> Enhanced by artificial intelligence, this tool mimics a genuine interview with a Canadian immigration officer. During the simulation, it's pivotal to utilize precise vocabulary and provide exhaustive details. Introduce yourself effectively, engage in a genuine conversation, and don't hesitate to ask questions.            </p>
@@ -152,7 +152,7 @@ const blog6 = () => {
                 <div className="flex items-start gap-x-8 rounded-lg p-8 mt-4 bg-white border border-black/10">
                     <UserLogo />
                     <p className="text-sm overflow-hidden leading-7 text-black">
-                        I intend to stay with my daughter for the rest of her studies but also find work and end my life in Canada.
+                        I intend to stay with my daughter for the rest of her studies but also find work and live in Canada.
                     </p>
                 </div>
 
@@ -238,7 +238,7 @@ const blog6 = () => {
 
             <div className="mt-12">
                 <h2 className="text-3xl font-semibold mb-6">Related Articles</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
                 {relatedBlogs.map((item) => (
     <a key={item.title} href={item.link} className="block transition-transform transform hover:scale-105">
         <Card className="bg-blue-900 border-none text-white rounded-xl shadow-lg">

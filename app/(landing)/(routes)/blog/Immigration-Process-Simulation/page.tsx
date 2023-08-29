@@ -7,7 +7,7 @@ import { BotAvatar } from "@/components/bot-avatar";
 const relatedBlogs = [
     { title: "Virtual interview Simulation Guide", link: "/blog/Immigration-Virtual-Interview-Simulation" },
     { title: "Immigration Explainer Tool", link: "/blog/Immigration-Explainer-Tool" },
-    { title: "3 Ways to apply for a job in Canada", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
+    { title: "How MigrAI Can Help You?", link: "/blog/migrai" },
     // ... add more related blogs as needed
 ];
 
@@ -101,7 +101,7 @@ const blog5 = () => {
 
             <div className="mt-12">
                 <h2 className="text-3xl font-semibold mb-6">Related Articles</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols- gap-8">
                 {relatedBlogs.map((item) => (
     <a key={item.title} href={item.link} className="block transition-transform transform hover:scale-105">
         <Card className="bg-blue-900 border-none text-white rounded-xl shadow-lg">

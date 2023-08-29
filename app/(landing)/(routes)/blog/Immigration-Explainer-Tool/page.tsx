@@ -7,8 +7,7 @@ import { BotAvatar } from "@/components/bot-avatar";
 const relatedBlogs = [
     { title: "Process Simulation Tool Guide", link: "/blog/Immigration-Process-Simulation" },
     { title: "Virtual interview Simulation Guide", link: "/blog/Immigration-Virtual-Interview-Simulation" },
-    { title: "3 Ways to Apply for a Job in Canada", link: "/blog/3-Ways-to-Apply-for-a-Job-in-Canada" },
-    { title: "Simplifying Canadian Immigration for Students", link: "/blog/Simplifying-Canadian-Immigration-for-Students" },
+    { title: "How MigrAI Can Help You?", link: "/blog/migrai" },
     // ... add more related blogs as needed
 ];
 
@@ -75,7 +74,7 @@ const blog4 = () => {
 
             <div className="mt-12 flex flex-col items-center">
     <h2 className="text-3xl font-semibold mb-6">Related Articles</h2>
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mx-auto">
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mx-auto">
     {relatedBlogs.map((item) => (
     <a key={item.title} href={item.link} className="block transition-transform transform hover:scale-105">
         <Card className="bg-blue-900 border-none text-white rounded-xl shadow-lg">
