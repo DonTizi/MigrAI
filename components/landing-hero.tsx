@@ -39,7 +39,7 @@ export const LandingHero = () => {
         </Link>
       </div>
       <div className="text-zinc-400 text-xs md:text-sm font-normal">
-        Available 24/7, for free.
+      The solution for your agency, available at any time.
       </div>
     </div>
   );
