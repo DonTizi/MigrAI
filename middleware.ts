@@ -6,7 +6,7 @@ import { authMiddleware } from "@clerk/nextjs";
 export default authMiddleware({
   publicRoutes: ["/", "/api/webhook", "/privacy-policy","/blog/migrai", "/blog/Immigration-Explainer-Tool", "/blog/Immigration-Process-Simulation", "/blog/Immigration-Virtual-Interview-Simulation"]
   ,beforeAuth(req) {
-    if (req.method === "GET" &&(req.nextUrl.pathname == "/" || req.nextUrl.pathname.startsWith("/stale") || req.nextUrl.pathname.startsWith("/link"))) {
+    if (req.method === "GET" &&(req.nextUrl.pathname == "/" || req.nextUrl.pathname.startsWith("/blog") || req.nextUrl.pathname.startsWith("/link"))) {
       return false;
     }
   }
