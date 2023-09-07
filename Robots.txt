@@ -2,8 +2,12 @@ user-agent: *
 Disallow: /dashboard
 Allow: /
 Allow: /blog/*
+Allow: /sign-in
+Allow: /sign-up
 
 user-agent: Googlebot
 Disallow: /dashboard
 Allow: /
 Allow: /blog/*
+Allow: /sign-in
+Allow: /sign-up
