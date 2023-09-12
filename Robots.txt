@@ -4,6 +4,7 @@ Allow: /
 Allow: /blog/*
 Allow: /sign-in
 Allow: /sign-up
+Allow: /privacy-policy
 
 user-agent: Googlebot
 Disallow: /dashboard
@@ -11,3 +12,4 @@ Allow: /
 Allow: /blog/*
 Allow: /sign-in
 Allow: /sign-up
+Allow: /privacy-policy
